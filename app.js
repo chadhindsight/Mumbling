@@ -5,4 +5,4 @@ const accum = (s) => {
     return arr.map((x, index) => x.toUpperCase() + Array(index + 1).join(x.toLowerCase())).join('-');
 }
 
-console.log(accum('waiter'));
+console.log(accum('wait'));
